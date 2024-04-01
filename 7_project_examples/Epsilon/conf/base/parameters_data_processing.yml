@@ -1,0 +1,15 @@
+random_state: 42
+
+configg: {
+    "learning_rate": 0.02,
+    "architecture": "CNN",
+    "dataset": "CIFAR-100",
+    "epochs": 10,
+    }
+
+host: 'localhost'
+database: 'postgresCont'
+user: 'postgres'
+password: '123'
+
+constring: "postgresql://postgres:123@localhost:5433/postgresCont"

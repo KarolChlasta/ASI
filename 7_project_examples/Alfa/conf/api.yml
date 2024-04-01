@@ -1,0 +1,71 @@
+routes:
+  my_model:
+    predictor: MLPredictor
+    tags: ['weather']
+    parameters:
+      Date:
+        type: str
+        description: "Date of observation"
+      Location:
+        type: str
+        description: "Location of observation"
+      MinTemp:
+        type: float
+        description: "Minimum temperature"
+      MaxTemp:
+        type: float
+        description: "Maximum temperature"
+      Rainfall:
+        type: float
+        description: "Amount of rainfall"
+      Evaporation:
+        type: float
+        description: "Evaporation amount"
+      Sunshine:
+        type: float
+        description: "Number of sunshine hours"
+      WindGustDir:
+        type: str
+        description: "Direction of the strongest wind gust"
+      WindGustSpeed:
+        type: float
+        description: "Speed of the strongest wind gust"
+      WindDir9am:
+        type: str
+        description: "Wind direction at 9am"
+      WindDir3pm:
+        type: str
+        description: "Wind direction at 3pm"
+      WindSpeed9am:
+        type: float
+        description: "Wind speed at 9am"
+      WindSpeed3pm:
+        type: float
+        description: "Wind speed at 3pm"
+      Humidity9am:
+        type: float
+        description: "Humidity at 9am"
+      Humidity3pm:
+        type: float
+        description: "Humidity at 3pm"
+      Pressure9am:
+        type: float
+        description: "Atmospheric pressure at 9am"
+      Pressure3pm:
+        type: float
+        description: "Atmospheric pressure at 3pm"
+      Cloud9am:
+        type: float
+        description: "Cloud coverage at 9am"
+      Cloud3pm:
+        type: float
+        description: "Cloud coverage at 3pm"
+      Temp9am:
+        type: float
+        description: "Temperature at 9am"
+      Temp3pm:
+        type: float
+        description: "Temperature at 3pm"
+      RainToday:
+        type: str
+        description: "Indicator if it rained today"

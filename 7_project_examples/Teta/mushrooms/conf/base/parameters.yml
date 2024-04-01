@@ -1,0 +1,5 @@
+model_params:
+  hyperparameters: light
+  presets: best_quality
+  eval_metric: roc_auc
+  time_limit: 60

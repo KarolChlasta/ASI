@@ -1,0 +1,54 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-01-22T14:49:23.339416",
+    "startedAt": "2024-01-22T14:49:21.759743",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "app:app"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/s23359/ASI.git",
+        "commit": "9424c6ef6b18ab46c86a2d8f6a289f5015109fc7"
+    },
+    "email": "maria.joanna.talaska@gmail.com",
+    "root": "C:/Users/User/Desktop/Homework/S7/ASI/ASI",
+    "host": "DESKTOP-TS9NR37",
+    "username": "User",
+    "executable": "C:\\Users\\User\\miniconda3\\envs\\python39\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 2592.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 2592.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.32038497924805,
+            "used": 329.9669876098633
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 Ti",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.85418701171875
+    }
+}

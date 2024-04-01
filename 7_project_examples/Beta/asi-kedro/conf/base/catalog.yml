@@ -1,0 +1,52 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+raw_data:
+  type: pandas.SQLTableDataSet
+  table_name: raw_data
+  credentials: db-credentials
+  save_args:
+    if_exists: replace
+    
+train_data:
+  type: pandas.SQLTableDataSet
+  table_name: train_data
+  credentials: db-credentials
+  save_args:
+    if_exists: replace
+    
+test_data:
+  type: pandas.SQLTableDataSet
+  table_name: test_data
+  credentials: db-credentials
+  save_args:
+    if_exists: replace
+
+evaluation_metrics:
+    type: pandas.SQLTableDataSet
+    table_name: evaluation_metrics
+    credentials: db-credentials
+    save_args:
+        if_exists: replace
+
+confusion_matrix:
+    type: pandas.SQLTableDataSet
+    table_name: confusion_matrix
+    credentials: db-credentials
+    save_args:
+        if_exists: replace
+
+synth_data:
+  type: pandas.SQLTableDataSet
+  table_name: synth_data
+  credentials: db-credentials
+  save_args:
+    if_exists: replace
+
+concat_data:
+  type: pandas.SQLTableDataSet
+  table_name: synth_data
+  credentials: db-credentials
+  save_args:
+    if_exists: replace

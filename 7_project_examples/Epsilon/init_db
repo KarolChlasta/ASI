@@ -1,0 +1,47 @@
+CREATE TABLE health_data (
+    gender VARCHAR(10),
+    age NUMERIC,
+    hypertension INTEGER,
+    heart_disease INTEGER,
+    smoking_history VARCHAR(20),
+    bmi NUMERIC,
+    HbA1c_level NUMERIC,
+    blood_glucose_level INTEGER,
+    diabetes INTEGER
+);
+
+CREATE TABLE train (
+    gender VARCHAR(10),
+    age NUMERIC,
+    hypertension INTEGER,
+    heart_disease INTEGER,
+    smoking_history VARCHAR(20),
+    bmi NUMERIC,
+    HbA1c_level NUMERIC,
+    blood_glucose_level INTEGER,
+    diabetes INTEGER
+);
+
+CREATE TABLE test (
+    gender VARCHAR(10),
+    age NUMERIC,
+    hypertension INTEGER,
+    heart_disease INTEGER,
+    smoking_history VARCHAR(20),
+    bmi NUMERIC,
+    HbA1c_level NUMERIC,
+    blood_glucose_level INTEGER,
+    diabetes INTEGER
+);
+
+CREATE TABLE validate (
+    gender VARCHAR(10),
+    age NUMERIC,
+    hypertension INTEGER,
+    heart_disease INTEGER,
+    smoking_history VARCHAR(20),
+    bmi NUMERIC,
+    HbA1c_level NUMERIC,
+    blood_glucose_level INTEGER,
+    diabetes INTEGER
+);

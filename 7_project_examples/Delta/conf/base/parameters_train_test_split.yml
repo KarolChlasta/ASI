@@ -1,0 +1,6 @@
+dataset_choice:
+  random_state: 3
+  rebalanced: undersampled
+  target_var_name: y
+  test_size: 0.2
+  val_size: 0.2

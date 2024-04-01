@@ -1,0 +1,160 @@
+##########################
+# KEDRO PROJECT
+
+# ignore all local configuration
+kedro-asi/conf/local/.gitkeep
+!kedro-asi/conf/local/.gitkeep
+kedro-asi/.telemetry
+
+# ignore potentially sensitive credentials files
+kedro-asi/conf/**/*credentials*
+
+# ignore everything in the following folders
+kedro-asi/data/**
+kedro-asi/logs/**
+
+# except their sub-folders
+!kedro-asi/data/**/
+!kedro-asi/logs/**/
+
+# also keep all .gitkeep files
+!kedro-asi/.gitkeep
+
+
+
+##########################
+# Common files
+
+# IntelliJ
+.idea/
+*.iml
+out/
+.idea_modules/
+
+### macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+
+# Vim
+*~
+.*.swo
+.*.swp
+
+# emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# C extensions
+*.so
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+kedro-asi/build/
+kedro-asi/develop-eggs/
+kedro-asi/dist/
+kedro-asi/downloads/
+kedro-asi/eggs/
+kedro-asi/.eggs/
+kedro-asi/lib/
+kedro-asi/lib64/
+kedro-asi/parts/
+kedro-asi/sdist/
+kedro-asi/var/
+kedro-asi/wheels/
+kedro-asi/*.egg-info/
+kedro-asi/.installed.cfg
+kedro-asi/*.egg
+kedro-asi/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+kedro-asi/*.manifest
+kedro-asi/*.spec
+
+# Installer logs
+kedro-asi/pip-log.txt
+kedro-asi/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+kedro-asi/htmlcov/
+kedro-asi/.tox/
+kedro-asi/.coverage
+kedro-asi/.coverage.*
+kedro-asi/.cache
+kedro-asi/nosetests.xml
+kedro-asi/coverage.xml
+kedro-asi/*.cover
+kedro-asi/.hypothesis/
+
+# Translations
+kedro-asi/*.mo
+kedro-asi/*.pot
+
+# Django stuff:
+kedro-asi/*.log
+kedro-asi/.static_storage/
+kedro-asi/.media/
+kedro-asi/local_settings.py
+
+# Flask stuff:
+kedro-asi/instance/
+kedro-asi/.webassets-cache
+
+# Scrapy stuff:
+kedro-asi/.scrapy
+
+# Sphinx documentation
+kedro-asi/docs/_build/
+
+# PyBuilder
+kedro-asi/target/
+
+# Jupyter Notebook
+kedro-asi/.ipynb_checkpoints
+
+# IPython
+kedro-asi/.ipython/profile_default/history.sqlite
+kedro-asi/.ipython/profile_default/startup/README
+
+# pyenv
+kedro-asi/.python-version
+
+# celery beat schedule file
+kedro-asi/celerybeat-schedule
+
+# SageMath parsed files
+kedro-asi/*.sage.py
+
+# Environments
+kedro-asi/.env
+kedro-asi/.envrc
+kedro-asi/.venv
+kedro-asi/env/
+kedro-asi/venv/
+kedro-asi/ENV/
+kedro-asi/env.bak/
+kedro-asi/venv.bak/
+
+# mkdocs documentation
+kedro-asi/site
+
+# mypy
+kedro-asi/.mypy_cache/
+
+kedro-asi/wandb/
+kedro-asi/AutogluonModels/

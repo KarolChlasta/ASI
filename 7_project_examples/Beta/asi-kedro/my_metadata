@@ -1,0 +1,4 @@
+digraph Metadata {
+	node [fillcolor=lightgoldenrod1 shape=Mrecord style=filled]
+	"" [label="{Columns\l&nbsp; &nbsp; • categorical : 1\l&nbsp; &nbsp; • numerical : 9\l}"]
+}

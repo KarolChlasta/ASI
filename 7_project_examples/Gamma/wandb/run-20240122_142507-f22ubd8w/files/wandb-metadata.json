@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-01-22T13:25:11.340704",
+    "startedAt": "2024-01-22T13:25:07.850907",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\User\\Desktop\\Homework\\S7\\ASI\\ASI\\asi-05\\streamlit_app.py",
+    "codePathLocal": "streamlit_app.py",
+    "codePath": "asi-05\\streamlit_app.py",
+    "git": {
+        "remote": "https://github.com/s23359/ASI.git",
+        "commit": "302ed111c7d0826b6798af0f3b23926b87ef8f2d"
+    },
+    "email": "maria.joanna.talaska@gmail.com",
+    "root": "C:/Users/User/Desktop/Homework/S7/ASI/ASI",
+    "host": "DESKTOP-TS9NR37",
+    "username": "User",
+    "executable": "C:\\Users\\User\\miniconda3\\envs\\python39\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 2592.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 2592.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.32038497924805,
+            "used": 329.73683166503906
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 Ti",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.85418701171875
+    }
+}

@@ -1,0 +1,37 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+# bank_load:
+#   type: pandas.CSVDataSet
+#   filepath: https://archive.ics.uci.edu/static/public/222/data.csv
+
+bank_raw:
+    type: pandas.CSVDataSet
+    filepath: data/01_raw/bank_raw.pq
+preprocessed_oversampled_bank:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/preprocessed_oversampled_bank.pq
+
+preprocessed_undersampled_bank:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/preprocessed_undersampled_bank.pq
+
+train_dataset:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/train_data.pq
+
+test_dataset:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/test_data.pq
+
+
+data_encoder:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/encoder_1.pkl
+  versioned: false 
+
+classifier:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/classifier_1.pkl
+  versioned: false

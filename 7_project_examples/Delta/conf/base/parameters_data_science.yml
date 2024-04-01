@@ -1,0 +1,7 @@
+model_options:
+  features: all
+  kernel: poly
+  model_type: logistic
+  n_estimators: 150
+  random_state: 3
+  rebalance: undersampled

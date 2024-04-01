@@ -1,0 +1,1 @@
+{"diabetes_predictions": {"rows": 100000, "columns": 9}, "X_train": {"rows": 70000, "columns": 9}, "X_test": {"rows": 15000, "columns": 8}, "X_validate": {"rows": 15000, "columns": 8}}

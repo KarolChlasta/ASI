@@ -1,0 +1,16 @@
+name: ASI_13_grupa2_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - autogluon==0.8.2
+  - fastapi==0.95.2
+  - kedro==0.18.14
+  - pandas==1.5.3
+  - pip-tools==7.3.0
+  - psycopg2==2.9.9
+  - scikit-learn==1.2.2
+  - SQLAlchemy==2.0.23
+  - streamlit==1.29.0
+  - wandb==0.16.0
+  - sdv==1.9.0

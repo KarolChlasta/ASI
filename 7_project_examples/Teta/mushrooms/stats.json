@@ -1,0 +1,1 @@
+{"mushrooms": {"rows": 8124, "columns": 23, "file_size": 382129}, "preprocessed_mushrooms": {"rows": 8124, "columns": 119, "file_size": 146456}, "model_input_table": {"rows": 8124, "columns": 119, "file_size": 146456}, "X_train": {"rows": 6093, "columns": 117}, "X_test": {"rows": 2031, "columns": 117}}

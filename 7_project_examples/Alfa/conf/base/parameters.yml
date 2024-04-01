@@ -1,0 +1,14 @@
+train_size: 0.8
+test_size: 0.2
+autogluon:
+  hyperparameters:
+    RF: {}
+    GBM:
+      num_boost_round: 100
+
+num_rows: 1000
+file_path: "data/02_fake_data/fake_weather_data.csv"
+table_name: "weather"  
+
+
+
