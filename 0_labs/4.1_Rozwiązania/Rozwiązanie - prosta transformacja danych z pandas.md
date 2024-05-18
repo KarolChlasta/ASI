@@ -1,0 +1,19 @@
+# Ćwiczenie: ...
+
+**Zadanie 1. ...**
+
+Zmodyfikuj moduł demonstracyjny tak, by ...
+
+Zrób...
+
+Wykorzystaj w tym celu ...
+
+**Lista kontrolna**
+
+Zmodyfikowany skrypt ... :
+
+- [ ] ...
+- [ ] ...
+- [ ] 
+
+- [ ] 
